@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.done { text-decoration: line-through; }
+.header {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+form {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+form button {
+    color: white;
+    position: relative;
+    left: 10px;
+    padding: 5px;
+    background-color: green;
+}
+input#new_text {
+    height: 1.8rem;
+}
+.content {
+    border: none;
+    outline: none;
+    color:black;
+    position: relative;
+    left: 10px;
+    top:15px;
+    max-width: 30%;
+    padding: 10px;
+    display: block;
+    background: #ddd;
+    text-align: center;
+    /* word-break: break-word; */
+}
+#delete {
+    position: relative;
+    left: 200px;
+    top: -15px;
+    background: crimson;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    display: block;
+
+}
+
+#content {
+    background-color:aquamarine;
+    max-width: 400px;
+    margin: auto;
+}
+
